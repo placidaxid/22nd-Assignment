@@ -1,5 +1,2 @@
-var array = ["busd", "usdt", "tron", "btc"];
-var name1 = "usdt";
-var name2 = "tron"
-
-console.log(`Hello, welcome ${array[2]}`)
+var array = [[1,2,3],[4,5,6],7,8,9,[[10,11,12,[13,4,112]],136,14],];
+        console.log(`${array[5[0]]},${array[3]},${array[5]}`)
