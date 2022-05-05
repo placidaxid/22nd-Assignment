@@ -24,11 +24,11 @@
     <script>
         //QUESTION 1
         var array = [[1,2,3],[4,5,6],7,8,9,[[10,11,12,[13,4,112]],136,14],];
-        console.log(`${array[5[0]]},${array[3]},${array[5]}`)
+        console.log(`${array[2]},${array[3]},${array[4]},${array[1][0]},${array[5][0][0]},${array[5][0][3][0]}`)
     </script>
     <!--<script>
         //USED JUST FOR SPACING
-    </script>-->
+    </script>--><br><br>
     <script>
         //QUESTION 2 DONE
         var sentence = ["Javascript", "Web", "Capacity Bay"];
@@ -36,7 +36,7 @@
     </script>
     <!--<script>
         //USED JUST FOR SPACING
-    </script>-->
+    </script>--><br><br>
     <script>
         //QUESTION 3
         var word =["G","E","N","E","R","A","L","I","Z","A","T","I","O","N"];
@@ -45,7 +45,7 @@
     </script>
     <!--<script>
         //USED JUST FOR SPACING
-    </script>-->
+    </script>--><br><br>
     <script>
         //QUESTION 4 DONE
         var fruits = ["orange", "guava", "lemon"];
@@ -55,6 +55,31 @@
     </script>
      <!--<script>
         //USED JUST FOR SPACING
-    </script>-->
+    </script>--><br><br>
+    <script>
+        //FIZZ BUZZ GAME
+        var array = [];
+        var count = 1;
+        function writeNum(){
+            if (count % 3 === 0 && count % 5 ===0){
+                array.push("FizzBuzz")
+            }
+            else if(count % 3 == 0){
+                array.push("Fizz")
+            }
+            else if(count % 5 === 0){
+                array.push("Buzz")
+            }else(array.push(count))
+        }
+        count++
+        console.log(array)
+        writeNum();
+        writeNum();
+        writeNum();
+        writeNum();
+        writeNum();
+        writeNum();
+        
+    </script>
 </body>
 </html>
